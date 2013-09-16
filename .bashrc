@@ -1,0 +1,3 @@
+#export PS1="\h\e[1m:\e[0m\W \u\$ "
+export PS1="\h : \W \u\$ "
+
