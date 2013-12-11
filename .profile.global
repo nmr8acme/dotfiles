@@ -1,5 +1,7 @@
 alias ll='ls -la'
+PROMPT_COMMAND='echo -ne "\033]0;$(basename $PWD)\007"'
 source ~/dotfiles/.git-completion.bash
 export PATH=$PATH:/Users/nathan/android-sdk/adt-bundle-mac-x86_64-20130729/sdk/tools
 export PATH=$PATH:/Users/nathan/android-sdk/adt-bundle-mac-x86_64-20130729/sdk/platform-tools
 export PATH=$PATH:/Users/nathan/bin
+export PATH=$PATH:/Users/nathan/dotfiles/bin
