@@ -1,7 +1,6 @@
 Host githubnmr
      #LogLevel DEBUG3
      HostName github.com
-     User nmr8
      PreferredAuthentications publickey
      PubkeyAuthentication yes
      IdentitiesOnly yes
