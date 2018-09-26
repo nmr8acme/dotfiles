@@ -1,0 +1,15 @@
+Host githubnmr
+     #LogLevel DEBUG3
+     HostName github.com
+     User nmr8
+     PreferredAuthentications publickey
+     PubkeyAuthentication yes
+     IdentitiesOnly yes
+     IdentityFile ~/.ssh/nmr_id_rsa
+
+Host *.*
+  #LogLevel DEBUG3
+  UseKeychain yes
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_rsa
+
