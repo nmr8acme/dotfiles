@@ -1,4 +1,4 @@
-source ~/dotfiles/bashrc.global
+source ~/dotfiles/.bashrc.global
 
 export PERL_LOCAL_LIB_ROOT="$PERL_LOCAL_LIB_ROOT:/Users/nathan/perl5";
 export PERL_MB_OPT="--install_base /Users/nathan/perl5";
