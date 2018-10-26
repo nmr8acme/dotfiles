@@ -13,3 +13,6 @@ alias pg-start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.p
 alias pg-stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
 
   [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
+# added by travis gem
+[ -f /Users/nathan/.travis/travis.sh ] && source /Users/nathan/.travis/travis.sh

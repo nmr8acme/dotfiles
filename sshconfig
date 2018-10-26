@@ -12,3 +12,5 @@ Host *.*
   AddKeysToAgent yes
   IdentityFile ~/.ssh/id_rsa
 
+#[url "https://github.com"]
+#    insteadOf = "git@github.com:"
