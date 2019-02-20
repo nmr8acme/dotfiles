@@ -16,3 +16,6 @@ alias pg-stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.
 
 # added by travis gem
 [ -f /Users/nathan/.travis/travis.sh ] && source /Users/nathan/.travis/travis.sh
+
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
