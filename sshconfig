@@ -1,3 +1,5 @@
+IgnoreUnknown UseKeychain
+
 Host githubnmr
      #LogLevel DEBUG3
      HostName github.com
