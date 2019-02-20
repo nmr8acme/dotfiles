@@ -3,6 +3,8 @@
 set -x
 set -e
 
+sudo apt-get install xsel xclip
+
 if [[ ! -f ~/.ssh/config ]]; then
    ln -s ~/dotfiles/sshconfig ~/.ssh/config
 fi
