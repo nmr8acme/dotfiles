@@ -11,9 +11,8 @@ if [[ ! -d ~/bin ]]; then
     mkdir -p ~/bin
 fi
 
-if [[ -f ~/.bashrc ]]
-   if grep --quiet dotfiles/.bashrc; then
-   else
+if [[ -f ~/.bashrc ]]; then
+   if ! grep --quiet "source ~/dotfiles/.bashrc" ~/.bashrc; then
        echo "source ~/dotfiles/.bashrc" >> ~/.bashrc
    fi
 fi
