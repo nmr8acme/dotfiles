@@ -8,6 +8,14 @@ Host githubnmr
      IdentitiesOnly yes
      IdentityFile ~/.ssh/nmr_id_rsa
 
+Host nam
+     #LogLevel DEBUG3
+     HostName nateandmarta.com
+     PreferredAuthentications publickey
+     PubkeyAuthentication yes
+     IdentitiesOnly yes
+     IdentityFile ~/.ssh/nmr_id_rsa
+
 Host *.*
   #LogLevel DEBUG3
   UseKeychain yes
